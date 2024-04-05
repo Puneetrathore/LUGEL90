@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar{
+    background-color: red;
+    width: 20vw;
+    font-family: 'Fira Sans', sans-serif;
+    height: 184vh;
+}
+
+.sidebar nav{
+    padding: 45px;
+} 
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 30px;
+    padding: 35px;
+}
+
+.main{
+    background-color: aqua;
+}
+
+.container{
+    display: flex;
+
+}
+
+.infocontainer{
+    background-color: green;
+    height: 78vh;
+    width: 57vw;
+    margin: 144px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo{
+    display: flex;
+    justify-content:  center;
+    flex-direction: column;
+}
+
+.hello{
+    font-size: 67px;
+}
+.name{
+    font-size: 52px;
+}
+.about{
+    font-size: 34px;
+}
+
+.buttons button{
+
+}
+
+.devpic img{
+    width: 228px;
+    height: 78vh;
+
+}
